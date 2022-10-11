@@ -49,6 +49,8 @@
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
         letter-spacing: 5px;
+        font-size: 2.5rem;
+        color: $primary-color;
 
         @include respond(phone) {
           font-size: 2rem;
