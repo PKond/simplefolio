@@ -44,6 +44,18 @@
         }
       }
 
+      &-technologies {
+        font-weight: bold;
+        margin-bottom: 1.8rem;
+        font-size: $mid-font-size;
+        letter-spacing: 5px;
+
+        @include respond(phone) {
+          font-size: 2rem;
+        }
+      }
+
+
       & p > a {
         color: $secondary-color;
       }
